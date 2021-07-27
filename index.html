@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <div class="container">
+            <div class="navbar">
+                <img src="spotify.png" class="logo">
+                <ul>
+                    <li><a href="#"><strong>HOME</strong></a></li>
+                    <li><a href="#"><strong>ABOUT</strong></a></li>
+                    <li><a href="#"><strong>LIBRARY</strong></a></li>
+                    <li><a href="#"><strong>CREATE PLAYLIST</strong></a></li>
+                    <li><a href="#"><strong>LIKED SONGS</strong></a></li>
+                </ul>
+            </div>
+        </header>
+            <div class="content">
+                <div class="left-col">
+                    <h1>THE<br>REAL<br>SOUND</h1>
+                </div>
+                <div class="right-col">
+                   <p>Click To Listen</p>
+                   <img src="play.png" id="icon">
+                </div>
+            </div>
+        </div>
+        <audio id="mysong">
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+        <script>
+            var mysong = document.getElementById("mysong");
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+                if(mysong.paused){
+                    mysong.play();
+                    icon.src ="pause.png";
+                }else{
+                    mysong.pause();
+                    icon.src ="play.png";
+                }     
+            }
+        </script>
+    </body>
+</html>
