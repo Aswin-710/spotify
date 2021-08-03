@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="spotify.png" class="logo">
+                <ul>
+                    <li><a href="#"><b>HOME</b></a></li>
+                    <li><a href="#"><strong>PODCASTS</strong></a></li>
+                    <li><a href="#"><strong>NEW RELEASES</strong></a></li>
+                    <li><a href="#"><strong>DISCOVER</strong></a></li>
+                </ul>
+            </div>
+            <iframe src="https://open.spotify.com/embed/playlist/5pgDR4X5LEImOM4UIokbkh?theme=0" width="30%" height="620" style="padding: 0px 1110px;" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="content">
+                <div class="left-col">
+                    <h1>Music</h1><br>
+                    <h1 style="color: yellowgreen;">For</h1><br>
+                    <h1>Everyone</h1>
+                </div>
+                
+            </div>
+            <div class="footer"> 
+                <div class="volume">
+                <i class="fa fa-volume-up" aria-hidden="true" id ="volume_icon" onclick="mute_sound()"></i>
+                <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+                </div>
+                 <div class="middle">   
+                <button id="random" onclick="random_switch()"><i class="fa fa-random" aria-hidden="true"></i></button>
+                <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+                <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+                <button id="repeat" onclick="repeat_switch()"><i class="fa fa-repeat" aria-hidden="true"></i></button>
+                <div id='waves'>   
+                    <span></span>  
+                    <span></span>  
+                    <span></span>  
+                    <span></span>  
+                    <span></span> 
+                  </div>
+                </div>
+                </div>    
+        </div>
+    </body>
+</html>
