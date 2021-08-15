@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container1{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, black, yellowgreen); 
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 90px;
+    background-color: rgba(0,0,0,0.5);
+    color:whitesmoke;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    font-family: kulim park ,sans-serif;
+}
+.logo{
+    width: 140px;
+    padding-left: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a ,.dropbtn{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.navbar ul li a:hover{
+    color: rgb(147, 207, 25);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition-duration: 0.4s;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 2px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.5);
+  } 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+b{
+    color:rgb(147, 207, 25);
+    border-bottom: 2px solid yellowgreen;
+    font-weight: normal;
+}
+.container2{
+    width: 14%;
+    height: 500px;
+    margin-left: 300px;
+    padding: 50px 50px 50px 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #fff;
+    display: flex;
+  }
+.music{
+    width: auto;
+    padding: 4px 5px 90px 5px;
+}
+.msg a:hover{
+    background: rgba(0,0,0,0.5);
+    color: whitesmoke;
+}
+.msg{
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    padding: 90px 200px 90px 90px;
+    color: whitesmoke;
+    line-height: 60px;
+}
+.msg a{
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    padding: 2px;
+    text-decoration: none;
+}
+.title1{
+     text-align: center;
+     font-size: 40px;
+     font-weight: bolder;
+}
+.tbl1{
+    font-family: Arial, Monospace;
+    border-collapse: collapse;
+    width: 100%;
+   }
+#tbl1 th{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+#tbl1 td{
+    text-align: center;
+    padding: 12px;
+    color: grey;
+    font-size: 20px;
+}
+button{
+    border: none;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;  
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(66, 66, 66),yellowgreen);
+    font-size: 40px;
+    color: whitesmoke;
+}
+.container4 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 100px 20px 142px;
+}
+.container5{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, black, yellowgreen); 
+}
+.container5 h{
+    text-align: center;
+    font-size: 40px;
+    color:whitesmoke;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.title2{
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+.container6{
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+    position: static;
+    padding: 20px 300px 30px 400px;
+  }
+.container6 h1{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 30px 30px 40px;
+}  
+.container6 li{
+    list-style: number;
+    font-size: 16px;
+}
+.container7{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, black, yellowgreen); 
+}
+.container7 h{
+    text-align: center;
+    font-size: 40px;
+    color:whitesmoke;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.container7 a{
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.container7 a:hover{
+    background: rgba(0,0,0,0.5);
+    color: whitesmoke;
+}
+footer{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background: black; 
+}
+.contanier8{
+    align-items: center;
+    padding: 60px 30px 40px 50px;
+    position: absolute;
+}
+#tbl2{
+    font-family: Arial, Monospace;
+    border-collapse: collapse;
+    width: 600px;
+    margin: 10px 100px 20px 400px;
+   }
+#tbl2 th{
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+    color: gray;
+}
+#tbl2 td{
+    text-align: left;
+    padding: 12px;
+    color: whitesmoke;
+    font-size: 15px;  
+}
+#tbl2 td a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#tbl2 a:hover{
+    color: rgb(147, 207, 25);
+}
+.container9 ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    left: 1100px;
+    top: 50px;
+}
+button1{
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;  
+    border-radius: 50%;
+    background: rgb(66, 66, 66);
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 10px;
+}
+button1 :hover{
+    color: rgb(147, 207, 25);
+} 
+.container10 ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    left: 100px;
+    bottom: 0px;
+}
+.container10 a{
+    color: grey;
+    font-size: 12px;
+    padding: 2px;
+    text-decoration: none;
+}
+.container10 a:hover{
+    color: rgb(147, 207, 25);
+}
