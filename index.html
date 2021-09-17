@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container1">
+            <div class="navbar">
+                <img src="spotify.png" class="logo">
+                <ul>
+                    <li><a href="./index.html"><b>HOME</b></a></li>
+                    <li><a href="./premium.html"><strong>Premium</strong></a></li>
+                    <li><a href="javascript:void(0)"><strong>Support</strong></a></li>
+                    <li><a href="javascript:void(0)"><strong>Download</strong></a></li>
+                    <li>|</li>
+                    <li class="dropdown">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i><a href="#"class="dropbtn"><strong>Profile</strong></a>
+                        <div class="dropdown-content">
+                          <a href="#">Sign Up</a>
+                          <a href="#">Login</a>
+                          <a href="#">Logout</a>
+                        </div> 
+                    </li>
+                </ul>
+            </div>            
+            <p class="msg">
+                Play millions of songs <br>and podcasts, for free.<br>   
+                <a href="https://aswin-710.github.io/spotify1/">Get Spotify Free</a>
+            </p>    
+        <div class="container2">
+            <img src="shot.jpeg" class="music"> 
+        </div> 
+        <div class="title1">       
+        <h>Why Spotify ?</h>
+        </div>
+        <div class="container4">
+        <ul>
+            <li><button><i class="fa fa-play-circle" aria-hidden="true"></i></button></li>
+            <li><button><i class="fa fa-book" aria-hidden="true"></i></button></li>
+            <li><button><i class="fa fa-gratipay" aria-hidden="true"></i></button></li>
+            <li><button><i class="fa fa-bolt" aria-hidden="true"></i></button></li>
+        </ul>
+        </div>
+        <table id="tbl1">
+        <tr>
+            <th>Play your favorites.</th>
+            <th>Playlists made easy.</th>
+            <th>Make it yours.</th>
+            <th>Save mobile data.</th>   
+        </tr>
+        <tr>
+            <td>Listen to the songs you love, and discover new music and podcasts.</td>
+            <td>We'll help you make playlists. Or enjoy playlists made by music experts.</td>
+            <td>Tell us what you like, and we'll recommend music for you.</td>
+            <td>To use less data when you play music, turn on Data Saver in Settings.</td>
+        </tr>
+        </table>
+        <br>
+        <div class="container5">
+            <h>It's free.<br>
+                No credit card required.</h>
+        </div>
+        <br>
+        <div class="title2">       
+            <h>Got questions?</h>
+        </div>
+        <div class="container6">
+            <h1><strong>How do I create a playlist?</strong></h1>
+              <p>Playlists are a great way to save collections of music, either for your own listening or to share.<br>To create one:</p>
+              <ul>
+                  <li>Tap Your Library.</li>
+                  <li>Tap CREATE.</li>
+                  <li>Give your playlist a name.</li>
+                  <li>Start adding songs (and we'll help you along).</li>
+              </ul>
+              <br>
+              <h1><strong>How do I activate Data Saver mode?</strong></h1>
+              <ul>
+                  <li>Tap Home.</li>
+                  <li>Tap Settings.</li>
+                  <li>Tap Data Saver.</li>
+                  <li>Switch on Data Saver.</li>
+              </ul>
+        </div>
+        <div class="container7">
+            <h>Ready? Let’s play.</h><br>   
+            <a href="https://aswin-710.github.io/spotify1/">Get Spotify Free</a>
+        </div>
+        <footer>
+            <div class="contanier8">
+            <img src="spotify.png" class="logo">
+            <div class="container9">
+                <ul>
+                    <li><button1><i class="fa fa-instagram" aria-hidden="true"></i></button1></li>
+                    <li><button1><i class="fa fa-twitter" aria-hidden="true"></i></button1></li>
+                    <li><button1><i class="fa fa-facebook" aria-hidden="true"></i></button1></li>
+                </ul>
+                <table id="tbl2">
+                    <tr>
+                    <th>COMPANY</th>
+                    <th>COMMUNITIES</th>
+                    <th>USEFUL LINKS</th>
+                    </tr>
+                    <tr>
+                    <td><a href="#">About</a></td>
+                    <td><a href="#">For Artists</a></td>
+                    <td><a href="#">Support</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="#">Jobs</a></td>
+                    <td><a href="#">Developers</a></td>
+                    <td><a href="#">Web Player</a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="#">For the Record</a></td>
+                    <td><a href="#">Advertising</a></td>
+                    <td><a href="#">Free Mobile App</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Investors</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Vendors</a></td>
+                        <td></td>
+                        </tr>
+                </table> 
+            </div>
+            <div class="container10">
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy Center</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">About Ads</a></li>
+                </ul>
+            </div>
+            </div>
+        </footer>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+    </body>    
+</html>    
